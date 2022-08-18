@@ -1,0 +1,10 @@
+all: 
+	#make a directory to hold the build product
+	mkdir -p linux
+
+	#build assign1 to that directory
+	g++ -std=c++11 -g -o linux/assign1 main.cpp Person.cpp
+
+clean:
+	#remove the linux directory
+	rm -rf linux
