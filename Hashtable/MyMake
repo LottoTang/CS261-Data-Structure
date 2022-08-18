@@ -1,0 +1,4 @@
+all:
+	mkdir -p linux
+	g++ -std=c++11 -g -o linux/Assign5Tester.exe IndexMap.cpp IndexRecord.cpp tester.cpp
+	g++ -std=c++11 -g -o linux/Assign5Index.exe IndexMap.cpp IndexRecord.cpp IndexBuilder.cpp
