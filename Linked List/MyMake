@@ -1,0 +1,6 @@
+all:
+	#make a directory to hold the build project
+	mkdir -p linux
+
+	#build MyProgram to that directory
+	g++ -std=c++11 -g -o linux/assign2 main.cpp Address.cpp AddressArrayList.cpp AddressLinkedList.cpp
