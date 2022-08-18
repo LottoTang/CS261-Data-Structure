@@ -1,0 +1,4 @@
+all:
+	mkdir -p linux
+	g++ -std=c++11 -g -o linux/assign3Stack.exe Stack.h htmlParse.cpp
+	g++ -std=c++11 -g -o linux/assign3PriorityQueue.exe DataStream.h DataStream.cpp processPackets.cpp
