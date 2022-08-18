@@ -1,0 +1,3 @@
+all:
+	mkdir -p linux
+	g++ -std=c++11 -g -o linux/assign4.exe MySet.h main.cpp
